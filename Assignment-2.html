@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+</head>
+<body>
+<form  action="#" method="get">
+    <!--Contact Info-->
+    <h1>Contact Info</h1>
+    <input type="text" autofocus placeholder="first and last name" name="name" pattern="^[A-Z][a-z]+\s[A-Z][a-z]+$" required>
+    <input type="email" placeholder="email address" name="email" required>
+    <input type="tel" placeholder="phone number" name="phone" pattern="^[0-9]{10}$" required>
+    <input type="url" placeholder="web address" name="web" required>
+<!--Preference field-->
+    <h1>Preferences</h1>
+    <input type="number" min="1" max="10" value="0"><br/><br/>
+    <input type="submit" value="submit info" >
+</form>
+</body>
+</html>
